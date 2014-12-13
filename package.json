@@ -1,0 +1,15 @@
+{
+  "name": "backstrap",
+  "version": "0.0.1",
+  "description": "Template for starting a simple app with Backbone and Bootstrap",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "jshint-stylish": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "connect-modrewrite": "^0.7.9",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-clean": "^0.6.0"
+  }
+}

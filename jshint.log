@@ -1,0 +1,65 @@
+
+src\js\helper.js
+  line 190   col 18  Expected '===' and instead saw '=='.
+  line 65    col 3   'document' is not defined.
+  line 67    col 17  'inName' is not defined.
+  line 67    col 24  'name' is not defined.
+  line 75    col 1   'clickLocations' is not defined.
+  line 78    col 3   'clickLocations' is not defined.
+  line 84    col 3   'console' is not defined.
+  line 87    col 3   'document' is not defined.
+  line 114   col 13  'google' is not defined.
+  line 114   col 29  'document' is not defined.
+  line 127   col 20  'bio' is not defined.
+  line 131   col 24  'education' is not defined.
+  line 132   col 22  'education' is not defined.
+  line 137   col 21  'work' is not defined.
+  line 138   col 22  'work' is not defined.
+  line 158   col 22  'google' is not defined.
+  line 167   col 26  'google' is not defined.
+  line 172   col 5   'google' is not defined.
+  line 178   col 23  'google' is not defined.
+  line 190   col 19  'google' is not defined.
+  line 203   col 23  'google' is not defined.
+  line 220   col 26  'google' is not defined.
+
+src\js\jQuery.js
+  line 1027  col 41  Expected an assignment or function call and instead saw an expression.
+  line 1381  col 14  ['ID'] is better written in dot notation.
+  line 1389  col 16  ['ID'] is better written in dot notation.
+  line 1398  col 21  ['ID'] is better written in dot notation.
+  line 1400  col 16  ['ID'] is better written in dot notation.
+  line 1410  col 12  ['TAG'] is better written in dot notation.
+  line 1436  col 12  ['CLASS'] is better written in dot notation.
+  line 1852  col 21  ['CHILD'] is better written in dot notation.
+  line 2153  col 25  Expected an assignment or function call and instead saw an expression.
+  line 2175  col 27  ['empty'] is better written in dot notation.
+  line 2248  col 13  ['nth'] is better written in dot notation.
+  line 2248  col 35  ['eq'] is better written in dot notation.
+  line 2587  col 47  ['TAG'] is better written in dot notation.
+  line 2724  col 30  ['ID'] is better written in dot notation.
+  line 2732  col 20  ['needsContext'] is better written in dot notation.
+  line 4261  col 27  Expected an assignment or function call and instead saw an expression.
+  line 7591  col 25  ['throws'] is better written in dot notation.
+  line 513   col 17  'DOMParser' is not defined.
+  line 829   col 7   'setTimeout' is not defined.
+  line 3758  col 21  'setTimeout' is not defined.
+  line 3760  col 9   'clearTimeout' is not defined.
+  line 7294  col 24  'setTimeout' is not defined.
+  line 7328  col 9   'clearTimeout' is not defined.
+  line 7746  col 16  'XMLHttpRequest' is not defined.
+  line 7913  col 3   'setTimeout' is not defined.
+  line 8559  col 15  'setInterval' is not defined.
+  line 8564  col 3   'clearInterval' is not defined.
+  line 8804  col 36  'module' is not defined.
+  line 8804  col 53  'module' is not defined.
+  line 8809  col 3   'module' is not defined.
+  line 8818  col 40  'define' is not defined.
+  line 8819  col 5   'define' is not defined.
+
+src\js\resumeBuilder.js
+  line 1     col 21  'HTMLheaderName' is not defined.
+  line 2     col 21  'HTMLheaderRole' is not defined.
+
+× 56 problems
+
