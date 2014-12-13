@@ -11,14 +11,6 @@ module.exports = function(grunt) {
 			src: 'src',
 			dist: 'dist'
 		},
-		jshint: {
-			options: {
-				reporter: require('jshint-stylish'),
-				reporterOutput: 'jshint.log',
-				jshintrc: '.jshintrc'
-			},
-			all: ['<%= meta.src %>/js/**/*.js']
-		},
 		copy: {
 			root: {
 				expand: true,
@@ -101,13 +93,11 @@ module.exports = function(grunt) {
 			build: ['dist']
 		}
 	});
-	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 
-	// grunt.registerTask('build', ['jshint', 'clean', 'copy'] );
 	grunt.registerTask('build', ['clean', 'copy'] );
-	grunt.registerTask('serve', ['connect:server', 'watch'] );
+	grunt.registerTask('serve', ['build', 'connect:server', 'watch'] );
 };

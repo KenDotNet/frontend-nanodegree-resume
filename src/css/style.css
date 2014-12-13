@@ -48,6 +48,13 @@ h2, h3, h4, h5 {
   padding-right: 5%;
 }
 
+.subhead {
+  color: #999999;
+  font-size: 24px;
+  font-family: 'Bitter', serif;
+  font-style: italic;
+  margin-left: 10px;
+}
 
 .date-text {
   font-style: italic;
